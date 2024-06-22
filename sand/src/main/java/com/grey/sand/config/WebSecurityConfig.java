@@ -16,6 +16,7 @@ public class WebSecurityConfig {
     int a;
     int b;
     int c;
+    int d;
     
 
     @Bean
