@@ -1,10 +1,11 @@
 package com.grey.sand.dto.user;
 
-import lombok.Builder;
-import lombok.Getter;
+import lombok.*;
 
 @Getter
 @Builder
+@AllArgsConstructor
+@NoArgsConstructor
 public class UserDto {
 
     private int id;
@@ -14,6 +15,8 @@ public class UserDto {
     private String nickname;
 
     private String password;
+
+    private String salt;
 
 
 }
